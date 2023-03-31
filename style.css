@@ -1,4 +1,138 @@
-*{
+* {
     padding: 0;
     margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    transition: all ease 1.5s;
+}
+
+.box-1 {
+    margin-top: 20px;
+    text-align: center;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.box-1 span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.box-1 button {
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: transparent;
+    transition: all ease 0.3s;
+}
+
+.box-1 button:hover {
+    padding: 8px;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 8px;
+    background: transparent;
+    transition: all ease 0.3s;
+    box-shadow: 1px 1px 10px 0.8px rgb(105, 105, 233);
+}
+
+.box-2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.box-2 div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.box-2 div:hover {
+    transition: all ease 0.4s;
+    box-shadow: 1px 1px 30px 0.8px rgb(106, 106, 109);
+}
+
+.box-2 p {
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.box-3 {
+    margin-top: 50px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-3 p {
+    font-weight: 900;
+    font-size: 25px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.box_3{
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.title_2{
+    font-size: 45px;
+    margin-top: 50px;
+}
+.parag{
+    font-size: 25px;
+    font-weight: 600;
+}
+.wrap{
+    margin-left: 300px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.wrap span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.wrap p{
+    margin-left: 50px;
+    font-size: 28px;
+}
+.btn{
+    margin-left: 400px;
+    margin-top: 30px;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
